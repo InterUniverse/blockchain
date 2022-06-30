@@ -1,0 +1,13 @@
+name: blockchain
+channels:
+ - defaults
+ - conda-forge
+dependencies:
+ - pip
+ - pandas
+ - matplotlib
+ - seaborn
+ - ipykernel
+ - pip:
+   - web3
+  
